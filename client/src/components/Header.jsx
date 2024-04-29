@@ -27,7 +27,7 @@ export default function Header() {
           <FaMoon />
         </button>
         <Link to='/sign-in'>
-          <Button gradientMonochrome="purple" >Sign In</Button>
+          <Button gradientMonochrome="purple" outline>Sign In</Button>
         </Link>
         <Navbar.Toggle />
       </div>
