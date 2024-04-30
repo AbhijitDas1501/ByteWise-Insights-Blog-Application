@@ -6,7 +6,7 @@ import About from './Pages/About'
 import Projects from './Pages/Projects'
 import SignIn from './Pages/SignIn'
 import SignUp from './Pages/SignUp'
-import Header from './components/Header'
+import Header from './components/Header.jsx'
 
 export default function App() {
   return (
