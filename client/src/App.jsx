@@ -13,6 +13,8 @@ import CreatePost from './Pages/CreatePost';
 import UpdatePost from './Pages/UpdatePost';
 import PostPage from './Pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
+import Search from './Pages/Search';
+
 
 
 
@@ -37,6 +39,7 @@ export default function App() {
         <Route path='/post/:postSlug' element={<PostPage />} />
         <Route path='/sign-in' element= {<SignIn />} />
         <Route path='/sign-up' element= {<SignUp/>} />
+        <Route path='/search' element={<Search />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
